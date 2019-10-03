@@ -1,0 +1,42 @@
+.button {
+    background-color: #6cc644;
+    cursor: pointer;
+}
+.dFlex {
+    display: flex;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+.width200 {
+    width: 200px;
+}
+.widthP80 {
+    width: 80%;
+}
+.height60 {
+    height: 60px;
+}
+.fWhite {
+    color: white;
+}
+.mAuto {
+    margin: auto;
+}
+
+.one{
+    text-align: center;
+    color:#6cc644;
+}
+
+.two{
+    text-align:center;
+    color:blue;
+}
+
+.three{
+    text-align: center;
+    color:#6cc644;
+}
+

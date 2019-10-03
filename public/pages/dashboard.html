@@ -1,0 +1,20 @@
+<h2 class="three">You are currently on the App Dashboard logged in as {{ctrl.name}}</h2>
+
+<p>YOUR GITHUB API DATA - </p>
+
+<p>
+    {{ctrl.userData}}
+</p>
+
+
+<h1>Take a snapshot of the current video stream</h1>
+   Click on the Start WebCam button.
+     <p>
+    <button onclick="startWebcam();">Start WebCam</button>
+       <button onclick="snapshot();">Take Preview</button> 
+    </p>
+    <video onclick="snapshot(this);" width=400 height=400 id="video" controls autoplay></video>
+  <p>
+
+        Screenshots : <p>
+      <canvas  id="myCanvas" width="400" height="350"></canvas>
